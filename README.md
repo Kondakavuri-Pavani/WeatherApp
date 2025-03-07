@@ -16,7 +16,9 @@ This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
    ```
 
 3. Refresh the URL in simple browser to see the output. As shown below 
-   ![](https://static.onecompiler.com/images/posts/3zzkbysj7/studio-react-vite-reload.png)
+WeatherApp
+![image](https://github.com/user-attachments/assets/6136a64e-a4bc-4e19-8b01-5e066a88f57a)
+
 
 
 ## FAQs & Debugging
