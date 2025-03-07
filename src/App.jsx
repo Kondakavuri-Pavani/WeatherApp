@@ -36,7 +36,7 @@ const WeatherApp = () => {
   return (
     <div style={{ padding: '20px', textAlign: "center" }}>
       <h1>Weather App</h1>
-      <div>
+      <div className='inputContainer'>
         <input
           type="text"
           placeholder="Enter city name"
