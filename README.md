@@ -19,6 +19,8 @@ This project is bootstrapped with [Vite](https://vitejs.dev/guide/).
 WeatherApp
 ![image](https://github.com/user-attachments/assets/6136a64e-a4bc-4e19-8b01-5e066a88f57a)
 
+Live server link- https://weatherapp.bytexl.live/
+
 
 
 ## FAQs & Debugging
