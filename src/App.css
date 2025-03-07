@@ -1,0 +1,125 @@
+/* General Page Styling */
+body {
+  font-family: "Poppins", sans-serif;
+  background: url('https://i.sstatic.net/NO8hx.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* App Container */
+.container {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+
+/* Title Styling */
+h1 {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 15px;
+  text-shadow: none;
+}
+
+/* Weather Info Styling */
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h2 {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #00eaff;
+  text-shadow: none;
+}
+
+/* Weather Details */
+.weather-info p {
+  font-size: 1.2rem;
+  margin: 8px 0;
+  font-weight: bold;
+  color: white;
+}
+
+/* Individual Weather Data Styling */
+.temperature {
+  color: #ff5733;
+}
+
+.weather-condition {
+  color: #ffcc00;
+}
+
+.humidity {
+  color: #00eaff;
+}
+
+.wind-speed {
+  color: #00ff6a;
+}
+
+/* Weather Icon */
+.weather-icon {
+  font-size: 4rem;
+  margin: 15px 0;
+  color: #ffcc00;
+  text-shadow: none;
+}
+
+/* Input Box */
+input {
+  width: 90%;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  outline: none;
+  margin-bottom: 15px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  font-weight: bold;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+/* Button Styling */
+button {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #ff4b2b, #ff416c);
+  transform: scale(1.05);
+}
+
+/* Error Message */
+.error {
+  color: #ff4b2b;
+  font-size: 1rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
